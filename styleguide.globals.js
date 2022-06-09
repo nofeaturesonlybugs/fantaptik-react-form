@@ -1,4 +1,3 @@
-import conf from './src/conf/conf'
 import Promises from './src/lib/Promises'
 
 import { Show, Text } from '@fantaptik/react-material'
@@ -9,7 +8,6 @@ import Buttons from './src/components/Buttons/Buttons'
 
 import Form from './src/components/Form/Form'
 
-global.conf = conf
 global.Promises = Promises
 global.useForm = useForm
 
