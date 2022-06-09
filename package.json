@@ -1,6 +1,6 @@
 {
   "name": "@fantaptik/react-form",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "@fantaptik React library for form presentation and processing.",
   "main": "dist/index.js",
   "files": [

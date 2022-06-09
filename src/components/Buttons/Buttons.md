@@ -1,17 +1,17 @@
 `Buttons` is a namespace for form appropriate buttons.
 
 ```jsx
-const Line = () => <hr />;
-<Buttons round>
-    <Buttons.Cancel />
-    <Buttons.FullReset />
-    <Buttons.Reset round={false} />
-    <Buttons.Submit />
-    <Line />
+const Line = () => <hr />
+;<Buttons round>
+	<Buttons.Cancel />
+	<Buttons.FullReset />
+	<Buttons.Reset round={false} />
+	<Buttons.Submit />
+	<Line />
 
-    <Buttons.Create />
-    <Buttons.Delete />
-    <Buttons.Edit />
+	<Buttons.Create />
+	<Buttons.Delete />
+	<Buttons.Edit />
 </Buttons>
 ```
 
