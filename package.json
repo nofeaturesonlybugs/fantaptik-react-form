@@ -1,0 +1,67 @@
+{
+  "name": "@fantaptik/react-form",
+  "version": "0.1.0",
+  "description": "@fantaptik React library for form presentation and processing.",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "scripts": {
+    "build-dev": "npx webpack --mode development",
+    "build": "npx webpack --mode production",
+    "alldocs": "npm run-script jsdoc && npm run-script styleguidist-build && node build.merge-docs.js",
+    "jsdoc": "jsdoc -c jsdoc.config.js -R README.md",
+    "styleguidist": "npx styleguidist server",
+    "styleguidist-build": "npx styleguidist build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nofeaturesonlybugs/fantaptik-react-form.git"
+  },
+  "keywords": [
+    "@fantaptik",
+    "materialize",
+    "material",
+    "form",
+    "forms",
+    "react-material",
+    "ui"
+  ],
+  "author": "Nofeatures Onlybugs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nofeaturesonlybugs/fantaptik-react-form/issues"
+  },
+  "homepage": "https://github.com/nofeaturesonlybugs/fantaptik-react-form",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@fantaptik/react-material": "^0.3.3",
+    "@fantaptik/webpack-config": "^0.2.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "docdash": "^1.2.0",
+    "fs-extra": "^10.0.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "jsdoc": "^3.6.7",
+    "materialize-css": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-styleguidist": "^11.1.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "@fantaptik/react-material": "^0.3.3",
+    "hoist-non-react-statics": "^3.3.2",
+    "materialize-css": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
